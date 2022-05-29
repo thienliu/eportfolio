@@ -137,7 +137,92 @@
 							</header>
 						</div>
 					</section>
-					<p>Updating</p>
+					<p>The Network and Information Security Management module aims to provide students with an
+						understanding of security concepts and terminology and hands-on experience with one of the most
+						critical aspects of information security today – network technology. We had a chance to explore
+						the essential penetration testing tools in a practical manner, improve our awareness of various
+						security standards and policies, and design and execute a security assessment on a web
+						application. </p>
+					<p>We discussed the STRIDE and DREAD methodology at the beginning of the module to see how they will
+						be applied in determining and ranking the threats. Later in the assignment, it was interesting
+						to determine that these methodologies are just a proportion of a more extensive threat modelling
+						process. Many other elements need to be considered, such as external dependencies, assets, trust
+						levels, and data flow (OWASP, n.d.). However, the website was almost a black box when we carried
+						out the assessment as we had no knowledge of how the website operated internally. From a risk
+						management perspective, there should be another security assessment for the internal components
+						to identify the threats. Unfortunately, this requirement is out of the scope of the assignments.
+					</p>
+					<p>Gathering information about the desired target is one of the essential engagement activities
+						before we conduct the assignment. Kali is my tool of choice for this purpose. It is
+						intentionally designed and packed with security-related tools to support network and computer
+						security experts in performing ethical hacking and penetration testing (Leroux, S., 2020). I
+						experimented with myself on a personal system where Kali is installed virtually on Parallels.
+						The purpose was to gain as much knowledge as possible on Kali's tools and apply them to perform
+						scans against the assigned website. Setting up the network connection on Parallels was the first
+						challenge. Initially, running the traceroute command on Kali only returns one hop. I finally
+						figured out that Bridge Network Adapter should be used instead of Shared Network Adapter to
+						enable proper network connection.</p>
+					<p>One of my classmates asked an interesting question during our scanning exercise, asking why the
+						tool was returning a different server's physical location for us. This raises a concern about
+						the result accuracy of the penetration tools. Even though we had an activity to review some
+						tools during the module, which resulted in <a target="_blank"
+							href="https://docs.google.com/document/d/1LLmS0AeEIxHvhUWjQn63ZKZbdKQsIAES/edit">the
+							outcome</a>, more in-depth research and practical
+						experience are required to evaluate the tools' output properly. </p>
+					<p>Throughout the module, various security standards were discussed, which gave us an insight into
+						which standards would be applied to our designated website. We pay more attention to GDPR
+						directives and PCI-DSS as our eCommerce website offers an online payment. Besides the forum
+						discussion with other classmates and a presentation on a GDPR case study, I created two mind
+						maps to explore and summarise what I found on PCI-DSS and HIPPA. The output can be found in the
+						artefacts section. Several logging and forensics tools/techniques were also introduced in the
+						module. Logs and their impact on the business are essential sources in the process of analysing
+						and identifying the incident. Unfortunately, I found these topics are essential but not
+						applicable to our assignments. </p>
+					<p>As a critical part of the module, we were tasked to design and perform a security assessment plan
+						to evaluate the website assigned to the team previously. The goal was to identify and analyse
+						security risks and vulnerabilities on the website and suggest a strategy to mitigate the issues.
+						One of the challenges we faced when conducting the assessment was that the website blocked all
+						the team members after a few automated scans. Sometimes we could simply navigate to the website
+						and unblock ourselves through a gateway. However, using a VPN service would help bypass this
+						challenge in most cases. Our final executive summary was conducted with heavy use of automated
+						scanning tools, which I found, is a lack of human attention to verify or accurately determine
+						potential web security vulnerabilities in an application. Automation tests are helpful. However,
+						it is critical to get involved with the human factor to discover business logic issues. This
+						executive summary was also a chance for us to apply the tutor's feedback on adding the
+						reflection on the evaluation of tools, standards, and impacts linking to risk mitigation in the
+						form of recommendations.</p>
+					<p>In this module, the key element that I have learned is that information security management is
+						much border than penetration testing. It covers not only the aspect of discovering the
+						vulnerabilities and suggesting the mitigation strategy but also the entire process of training
+						the staff to improve their security awareness, developing a security policy within the
+						organisation to minimise the risks, and preparing a recovery plan to react to the incident
+						quickly. This led me to further read about popular information security, cybersecurity, and
+						privacy protection standards such as the ISO 27000 series. I am particularly interested in the
+						NIST SP 800-53 requirements, as it was designed for security and privacy controls on US
+						government agencies. Furthermore, federal information systems handle the most sensitive
+						information, which impacts national security. A study by CSIS (2021) indicates that there have
+						been significant cyber incidents on government agencies within the last decade, causing losses
+						of more than a million dollars and the organisation's reputation.</p>
+					<p>I found myself to be productive in this module, and it was fortunate for me to collaborate in a
+						team where everyone has demonstrated their commitment to teamwork, which resulted in
+						high-quality deliverables. Personally, because of the time zone difference, this was the very
+						first module in the entire program that I had a chance to participate in the live seminars and
+						attend the team meetings. This helped boost our team productivity quite a lot. Another aspect
+						that I wish could have been available in this module is the ethics in security management.
+						Cybersecurity professionals have access to the sensitive data that they are protecting. They
+						must follow ethical principles and hold responsibility for the work they commit. Thus, ethics is
+						an indispensable part of an information security management plan.</p>
+
+					<strong>References</strong>
+					<p></p>
+					<p>CSIS (2021). Significant Cyber Incidents | Center for Strategic and International Studies.
+						www.csis.org. Available at:
+						https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents
+						[Accessed 29 May 2022].</p>
+					<p>Leroux, S. (2020) The Kali Linux Review You Must Read Before You Start Using It. It's FOSS.
+						Available from: https://itsfoss.com/kali-linux-review/ [Accessed 29 May 2022].</p>
+					<p>OWASP (n.d.). Threat Modeling Process | OWASP. owasp.org. Available at:
+						https://owasp.org/www-community/Threat_Modeling_Process [Accessed 29 May 2022].</p>
 				</section>
 
 				<section id="skill-matrix">
